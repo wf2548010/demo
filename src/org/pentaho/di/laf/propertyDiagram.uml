@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="456.40794334975357" y="0.0">org.pentaho.di.laf.Handler</node>
+    <node x="515.125" y="1196.0">org.pentaho.di.laf.BasePropertyHandler</node>
+    <node x="559.5024630541872" y="85.0">org.pentaho.di.laf.PropertyHandler</node>
+    <node x="563.1668719211821" y="554.5">org.pentaho.di.laf.OverlayPropertyHandler</node>
+    <node x="66.97475369458107" y="980.0">org.pentaho.di.laf.LAFFactory</node>
+    <node x="63.66225369458107" y="363.5">org.pentaho.di.laf.LAFChangeListener</node>
+    <node x="10.5" y="554.0">org.pentaho.di.laf.LAFDelegate</node>
+    <node x="705.4079433497536" y="284.0">org.pentaho.di.laf.OverlayProperties</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.pentaho.di.laf.OverlayProperties" target="org.pentaho.di.laf.PropertyHandler">
+      <point x="0.0" y="-110.0" />
+      <point x="842.9079433497536" y="264.0" />
+      <point x="769.0738916256158" y="264.0" />
+      <point x="46.57142857142867" y="69.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.LAFFactory" target="org.pentaho.di.laf.Handler">
+      <point x="139.875" y="-83.0" />
+      <point x="579.8497536945811" y="960.0" />
+      <point x="519.0" y="960.0" />
+      <point x="519.0" y="60.0" />
+      <point x="530.7829433497536" y="60.0" />
+      <point x="14.875" y="17.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.LAFFactory" target="org.pentaho.di.laf.OverlayPropertyHandler">
+      <point x="326.375" y="-83.0" />
+      <point x="766.3497536945811" y="960.0" />
+      <point x="750.1668719211821" y="960.0" />
+      <point x="0.0" y="187.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.LAFDelegate" target="org.pentaho.di.laf.LAFChangeListener">
+      <point x="-182.625" y="-188.0" />
+      <point x="71.375" y="534.0" />
+      <point x="139.03725369458107" y="534.0" />
+      <point x="-25.125" y="30.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.OverlayPropertyHandler" target="org.pentaho.di.laf.OverlayProperties">
+      <point x="0.0" y="-187.5" />
+      <point x="750.1668719211821" y="534.0" />
+      <point x="739.7829433497536" y="534.0" />
+      <point x="-103.125" y="110.0" />
+    </edge>
+    <edge source="org.pentaho.di.laf.LAFFactory" target="org.pentaho.di.laf.PropertyHandler">
+      <point x="233.125" y="-83.0" />
+      <point x="673.0997536945811" y="950.0" />
+      <point x="552.6668719211821" y="950.0" />
+      <point x="552.6668719211821" y="264.0" />
+      <point x="582.7881773399014" y="264.0" />
+      <point x="-139.71428571428578" y="69.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.PropertyHandler" target="org.pentaho.di.laf.Handler">
+      <point x="0.0" y="-69.5" />
+      <point x="722.5024630541872" y="60.0" />
+      <point x="560.5329433497536" y="60.0" />
+      <point x="44.625" y="17.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.BasePropertyHandler" target="org.pentaho.di.laf.PropertyHandler">
+      <point x="45.25" y="-161.5" />
+      <point x="741.375" y="1166.0" />
+      <point x="990.9079433497536" y="1166.0" />
+      <point x="990.9079433497536" y="254.0" />
+      <point x="815.6453201970443" y="254.0" />
+      <point x="93.14285714285711" y="69.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.LAFFactory" target="org.pentaho.di.laf.LAFDelegate">
+      <point x="-46.625" y="-83.0" />
+      <point x="393.34975369458107" y="960.0" />
+      <point x="436.625" y="960.0" />
+      <point x="182.625" y="188.0" />
+    </edge>
+    <edge source="org.pentaho.di.laf.OverlayPropertyHandler" target="org.pentaho.di.laf.PropertyHandler">
+      <point x="-106.85714285714289" y="-187.5" />
+      <point x="643.3097290640392" y="534.0" />
+      <point x="621.081896551724" y="534.0" />
+      <point x="621.081896551724" y="254.0" />
+      <point x="675.9310344827586" y="254.0" />
+      <point x="-46.571428571428555" y="69.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.LAFDelegate" target="org.pentaho.di.laf.Handler">
+      <point x="182.625" y="-188.0" />
+      <point x="436.625" y="534.0" />
+      <point x="324.47044334975357" y="534.0" />
+      <point x="324.47044334975357" y="60.0" />
+      <point x="471.28294334975357" y="60.0" />
+      <point x="-44.625" y="17.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.BasePropertyHandler" target="org.pentaho.di.laf.LAFChangeListener">
+      <point x="-135.75" y="-161.5" />
+      <point x="560.375" y="1176.0" />
+      <point x="0.0" y="1176.0" />
+      <point x="0.0" y="524.0" />
+      <point x="88.78725369458107" y="524.0" />
+      <point x="-75.375" y="30.5" />
+    </edge>
+    <edge source="org.pentaho.di.laf.BasePropertyHandler" target="org.pentaho.di.laf.LAFFactory">
+      <point x="-45.25" y="-161.5" />
+      <point x="650.875" y="1166.0" />
+      <point x="439.97475369458107" y="1166.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="347.5" y="387.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
