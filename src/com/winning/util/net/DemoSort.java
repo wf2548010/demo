@@ -2,7 +2,6 @@ package com.winning.util.net;
 
 public class DemoSort implements Runnable {
 
-
     private String num;
 
     public DemoSort(int num){
@@ -15,7 +14,6 @@ public class DemoSort implements Runnable {
             new Thread(new DemoSort(nums[i])).start();
         }
     }
-
 
     @Override
     public void run() {
